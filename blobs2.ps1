@@ -1,6 +1,4 @@
 $rg = 'ybk-arm'
-$rgd = 'ybk-vm-deployment' 
-$vmName = 'ybk-vm'
 $fileNum = 5 #can be 100
 $container1 = "test1"
 $container2 = "test2"
