@@ -4,8 +4,8 @@ $container1 = "test1"
 $container2 = "test2"
 
 # getting the storage account context for container creating 
-$AzStAcc0 = Get-AzStorageAccount -ResourceGroupName $rg -Name "ybk000"
-$AzStAcc1 = Get-AzStorageAccount -ResourceGroupName $rg -Name "ybk001"
+$AzStAcc0 = Get-AzStorageAccount -ResourceGroupName $rg -Name "ybk00"
+$AzStAcc1 = Get-AzStorageAccount -ResourceGroupName $rg -Name "ybk01"
 $AzStAccCTX0 = $AzStAcc0.context
 $AzStAccCTX1 = $AzStAcc1.context
 

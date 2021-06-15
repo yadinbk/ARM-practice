@@ -15,12 +15,13 @@ New-AzResourceGroup `
     -Force
 
 # storage deployment
-for ($i=0; $i -lt $storageNum ; $i++){
+for ($i = 0; $i -lt $storageNum ; $i++) {
     New-AzResourceGroupDeployment `
         -Name "$($rgd)$($i)-$($TIME)" `
         -ResourceGroupName $rg `
         -TemplateFile 'storageTemplate.json' `
-        -storageName "ybk00$($i)" `
+        -storageName "ybk0$($i)" `
+
 }
 
 # vm deployment
